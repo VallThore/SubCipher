@@ -1,7 +1,7 @@
 SubCipher
 =========
 
-Substitution Cipher written for DSM-51 in C
+Substitution Shift Cipher written for DSM-51 in C
 
 *License*
 
