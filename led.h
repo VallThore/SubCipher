@@ -21,10 +21,10 @@ void napisz(char cyfra, char wyswietlacz, bit kropka)
 		return;
 	}*/
 
-	//P1_6 = 1;
+	P1_6 = 1;
 	XBYTE[CSDS] = 1 << (wyswietlacz - 1); // wybor wskaznika
 	XBYTE[CSDB] = (kropka ? cyfry[cyfra] | 0x80 : cyfry[cyfra]);
-	//P1_6 = 0;
+	P1_6 = 0;
 }
 
 #endif

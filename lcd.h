@@ -11,4 +11,7 @@
 #define CSKB0 0xf021 // adres rejestru klawiszy 0-7
 #define CSKB1 0xf022 // adres rejestru klawiszy 8-F
 
+#define CSAD 0xf010 // adres rejestru wyniku oraz startu przetwarzania
+#define CSMX 0xf018 // adres rejestru wyboru kanalu wejsciowego na multiplekserze
+
 #endif
